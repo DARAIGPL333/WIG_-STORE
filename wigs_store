@@ -7,7 +7,7 @@ CREATE TABLE WIGS_STORE(id INTEGER PRIMARY KEY
 length_lace TEXT ,Quantity INTEGER, 
 hair_length INTEGER,price INTEGER);
 
-INSERT INTO wigs_store VALUES( 1,"BLONDE WIG","HUMAN",2,40,5000);
+INSERT INTO wigs_store VALUES( 1,"blonde wig","HUMAN",2,40,5000);
 INSERT INTO wigs_store VALUES(2," bob wig","synthetic","middle part" ,5,10,800);
 INSERT INTO wigs_store VALUES( 3,"pink wig","blended" ,4x4,1,20,1500);
 INSERT INTO  wigs_store VALUES(4,"highlight wig","human",13x6 ,3,30,2500);
@@ -24,7 +24,7 @@ INSERT INTO wigs_store VALUES(14,"light brown wig","human",13x6, 4,35,4500);
 INSERT INTO wigs_store VALUES(15," blue wig","human",13x6,4,30,3500);
 
 
-select
+SELECT
 *
 FROM wigs_store
 
