@@ -1,4 +1,4 @@
-*/I Created a  wig store that is specialized in selling a wide variety of wigs focus on providing high-quality wigs, 
+/* I Created a  wig store that is specialized in selling a wide variety of wigs focus on providing high-quality wigs, 
 The store's inventory includes synthetic wigs, human hair wigs, lace front wigs, cosplay wigs, and more*/
 
 
@@ -28,7 +28,7 @@ SELECT
 *
 FROM wigs_store
 
-*/ the Wig Store provides customers with a wide range of options, from affordable synthetic wigs to premium human hair wigs
+/*the Wig Store provides customers with a wide range of options, from affordable synthetic wigs to premium human hair wigs
  top 5 most expensive wigs:*/
 
 SELECT *
@@ -37,7 +37,7 @@ ORDER BY Price DESC
 LIMIT 5 ;
 
 
-*/ Get the average price for all wigs in the wigs_store table where the material is 'human'. */
+/* Get the average price for all wigs in the wigs_store table where the material is 'human'. */
 
 SELECT
 id
@@ -46,7 +46,7 @@ FROM wigs_store
 WHERE material_w ='human" desc;
 
 
-*/ Getting  the total value of each wig  type in stock*/
+/* Getting  the total value of each wig  type in stock*/
 
 SELECT 
 material_w
